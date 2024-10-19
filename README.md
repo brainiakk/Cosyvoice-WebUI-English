@@ -6,9 +6,14 @@ We support sft/zero_shot/cross_lingual/instruct inference in web demo.
 Please see the demo website for details.
 ``` bash
 git clone https://github.com/brainiakk/Cosyvoice-WebUI-English.git
+# Create & activate your virtual environment 
 cd Cosyvoice-WebUI-English/CosyVoice
+# Install required packages
+pip install -r requirements.txt
+# Make model directory
 mkdir pretrained_models
 ```
+
 **Download Models**
 
 CosyVoice-300M HF Link: https://huggingface.co/FunAudioLLM/CosyVoice-300M <br/>
